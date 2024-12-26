@@ -18,7 +18,7 @@ const Footer = () => {
     { name: 'About Us', href: '/about-us' },
     // { name: 'Blog', href: '/blog' },
     { name: 'Careers', href: '/careers' },
-    // { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Contact Us', href: '/contact' },
     // { name: 'Terms of Service', href: '/terms' }
   ];
 
@@ -113,27 +113,25 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 mt-1 flex-shrink-0" />
                 <p className="text-sm">
-                  123 Digital Avenue,<br />
-                  Tech District,<br />
-                  Innovation City, 12345
+                1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur, Rajasthan, 302019
                 </p>
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0" />
                 <a 
-                  href="tel:+1234567890"
+                  href="tel:+91 9461677122"
                   className="text-sm hover:text-white transition-colors duration-300"
                 >
-                  (123) 456-7890
+                  +91 9461677122
                 </a>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
                 <a 
-                  href="mailto:contact@company.com"
+                  href="mailto:info@seocialmedia.in"
                   className="text-sm hover:text-white transition-colors duration-300"
                 >
-                  contact@company.com
+                  info@seocialmedia.in
                 </a>
               </div>
             </div>
