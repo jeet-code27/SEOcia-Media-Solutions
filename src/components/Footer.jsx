@@ -124,6 +124,12 @@ const Footer = () => {
                   className="text-sm hover:text-white transition-colors duration-300"
                 >
                   +91 9461677122
+                </a>, &nbsp;
+                <a 
+                  href="tel:+91 8949342270"
+                  className="text-sm hover:text-white transition-colors duration-300"
+                >
+                  +91 8949342270
                 </a>
               </div>
               <div className="flex items-center">

@@ -80,7 +80,7 @@ const UnifiedLandingPage = () => {
                   </div>
                   <div>
                     <h2 className="text-xl font-semibold text-gray-900">Visit Us</h2>
-                    <p className="text-gray-600">123 Digital Avenue, Jaipur</p>
+                    <p className="text-gray-600">1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur, Rajasthan, 302019</p>
                   </div>
                 </div>
 
@@ -89,13 +89,13 @@ const UnifiedLandingPage = () => {
                     <div className="bg-blue-100 p-2 rounded-xl">
                       <Phone className="text-blue-600 w-5 h-5" />
                     </div>
-                    <p className="text-gray-600">+91 123-456-7890</p>
+                    <p className="text-gray-600">+91 9461677122, +91 8949342270</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="bg-blue-100 p-2 rounded-xl">
                       <Mail className="text-blue-600 w-5 h-5" />
                     </div>
-                    <p className="text-gray-600">hello@seocial.com</p>
+                    <p className="text-gray-600">info@seocialmedia.in</p>
                   </div>
                 </div>
               </div>
