@@ -4,7 +4,6 @@ import {
   Mail, 
   MapPin, 
   Facebook, 
-  Twitter, 
   Instagram, 
   Linkedin,
   ExternalLink 
@@ -17,7 +16,7 @@ const Footer = () => {
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about-us' },
     // { name: 'Blog', href: '/blog' },
-    { name: 'Careers', href: '/careers' },
+    { name: 'Careers', href: '/career' },
     { name: 'Contact Us', href: '/contact' },
     // { name: 'Terms of Service', href: '/terms' }
   ];
@@ -26,16 +25,16 @@ const Footer = () => {
     { name: 'Website Development', href: '/web-development' },
     { name: 'SEO Services', href: '/seo' },
     { name: 'Social Media Marketing', href: '/social-media-marketing' },
-    { name: 'Google Business Profile', href: '/' },
+    // { name: 'Google Business Profile', href: '/' },
     { name: 'Google Ads', href: '/google-ads' },
     { name: 'Content Writing', href: '/content' }
   ];
 
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#' }
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61564390163701' },
+    // { name: 'Twitter', icon: Twitter, href: '#' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/seocialmediasolutions360/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/seocial-media-solution/' }
   ];
 
   return (
@@ -47,7 +46,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center">
               <img
-                src="images/company-logo.jpeg"
+                src="images/footer-logo.jpg"
                 alt="Company Logo"
                 className="h-12 w-auto"
               />
@@ -61,6 +60,8 @@ const Footer = () => {
                 <a
                   key={social.name}
                   href={social.href}
+                  target='_blank'
+                  rel="noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                   aria-label={social.name}
                 >

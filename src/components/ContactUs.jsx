@@ -5,12 +5,12 @@ import {
   MapPin, 
   Send,
   Linkedin,
-  Twitter,
   Instagram,
   CheckCircle,
   AlertCircle,
   Loader2,
-  Smartphone
+  Smartphone,
+  Facebook
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -65,23 +65,24 @@ const ContactForm = () => {
 
   const socialLinks = [
     {
+      icon: Instagram,
+      href: "https://www.instagram.com/seocialmediasolutions360/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#",
+      gradient: "from-orange-500 to-red-500",
+      label: "Instagram"
+    },
+    {
       icon: Linkedin,
-      href: "https://www.linkedin.com/company/seocial-media",
+      href: "https://www.linkedin.com/company/seocial-media-solution/",
       gradient: "from-blue-500 to-cyan-500",
       label: "LinkedIn"
     },
     {
-      icon: Twitter,
-      href: "https://twitter.com/seocialmedia",
+      icon: Facebook,
+      href: "https://www.facebook.com/profile.php?id=61564390163701",
       gradient: "from-purple-500 to-pink-500",
       label: "Twitter"
-    },
-    {
-      icon: Instagram,
-      href: "https://instagram.com/seocialmedia",
-      gradient: "from-orange-500 to-red-500",
-      label: "Instagram"
     }
+   
   ];
 
   const handleChange = (e) => {
