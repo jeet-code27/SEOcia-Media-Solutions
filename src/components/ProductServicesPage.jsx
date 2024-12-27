@@ -71,7 +71,7 @@ const ProductServicesPage = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="md:col-span-2 md:row-span-5 rounded-2xl p-6 relative overflow-hidden group"
+            className="md:col-span-2 md:row-span-5 rounded-2xl p-4 relative overflow-hidden group"
           >
             <div className="absolute inset-0 bg-purple-100/90 transition-transform duration-300 group-hover:scale-105" />
             <div className="relative z-10 mb-20">
@@ -96,12 +96,16 @@ const ProductServicesPage = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="md:col-span-4 md:row-span-3 md:col-start-3 rounded-2xl p-6 relative overflow-hidden group"
+            className="md:col-span-4 md:row-span-3 md:col-start-3 rounded-2xl p-5 relative overflow-hidden group"
           >
             <div className="absolute inset-0 bg-pink-400/90 transition-transform duration-300 group-hover:scale-105" />
             <div className="relative z-10 mb-16">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">UI & UX Design</h2>
-              <p className="text-gray-700 text-base sm:text-lg font-semibold">Designing delightful and intuitive user experiences.</p>
+              <p className="text-gray-700 text-base sm:text-lg font-semibold">
+  Designing delightful
+  <span className="block sm:hidden"></span>
+  and intuitive user <span className="block sm:hidden"></span> experiences.
+</p>
             </div>
             <motion.div 
               className="absolute top-1/4 right-0 w-1/2 h-3/4 bg-contain bg-no-repeat bg-right"

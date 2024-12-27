@@ -114,7 +114,7 @@ const Seo = () => {
             <span className="inline-block px-4 py-1 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-sm rounded-full font-medium">
               Expert SEO Services
             </span>
-            <h1 className="mt-6 text-4xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent md:text-6xl">
+            <h1 className="mt-6 pb-3 text-4xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent md:text-6xl">
               Boost Your Search Rankings
             </h1>
             <p className="mt-6 text-gray-600 text-lg md:text-xl max-w-3xl mx-auto">
