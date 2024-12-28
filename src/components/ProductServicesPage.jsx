@@ -102,9 +102,9 @@ const ProductServicesPage = () => {
             <div className="relative z-10 mb-16">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">UI & UX Design</h2>
               <p className="text-gray-700 text-base sm:text-lg font-semibold">
-  Designing delightful
+  Designing 
   <span className="block sm:hidden"></span>
-  and intuitive user <span className="block sm:hidden"></span> experiences.
+  delightful and  <span className="block sm:hidden"></span> intuitive user<span className="block sm:hidden"></span>  experiences.
 </p>
             </div>
             <motion.div 
@@ -165,7 +165,7 @@ const ProductServicesPage = () => {
             <div className="absolute inset-0 bg-orange-200/90 transition-transform duration-300 group-hover:scale-105" />
             <div className="relative z-10 mb-16 text-right">
               <h2 className="text-2xl sm:text-3xl font-bold text-orange-900 mb-3">Software Development</h2>
-              <p className="text-orange-800 text-base sm:text-lg font-semibold">Building robust software solutions tailored to your needs.</p>
+              <p className="text-orange-800 text-base sm:text-lg font-semibold">Building robust software  solutions tailored <span className="block sm:hidden"></span>  to your needs.</p>
             </div>
             <motion.div 
               className="absolute bottom-0 left-0 w-1/2 h-3/4 bg-contain bg-no-repeat bg-left-bottom"

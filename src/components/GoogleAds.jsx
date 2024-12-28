@@ -6,11 +6,14 @@ import {
   Search, 
   Users, 
   Settings, 
-  DollarSign 
+  DollarSign,
+  Award,
+  Trophy
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+// Animation variants remain the same
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -31,6 +34,7 @@ const fadeInUp = {
     }
   }
 };
+
 
 const GoogleAdsServices = () => {
   const features = [
@@ -100,6 +104,40 @@ const GoogleAdsServices = () => {
       image: "/images/analytics.jpg"  // Add your image path here
     }
   ];
+
+  const benefits = [
+    {
+      title: "Increased ROI",
+      description: "Our data-driven approach ensures maximum return on your advertising investment through continuous optimization and strategic bidding.",
+      icon: <DollarSign className="w-6 h-6" />
+    },
+    {
+      title: "Higher Quality Score",
+      description: "Improve your Quality Score with expertly crafted ad copy and optimized landing pages, reducing your cost per click.",
+      icon: <Award className="w-6 h-6" />
+    },
+    {
+      title: "Better Conversion Rates",
+      description: "Advanced conversion tracking and optimization techniques to turn more clicks into customers.",
+      icon: <Trophy className="w-6 h-6" />
+    }
+  ];
+
+  const faqItems = [
+    {
+      question: "What makes your Google Ads management services different?",
+      answer: "Our approach combines data-driven strategies, advanced automation, and human expertise to deliver superior results. We focus on continuous optimization, transparent reporting, and measurable ROI."
+    },
+    {
+      question: "How long does it take to see results from Google Ads?",
+      answer: "While initial results can be seen within the first few weeks, optimal performance is typically achieved within 2-3 months as we gather data and optimize your campaigns based on performance metrics."
+    },
+    {
+      question: "Do you provide regular reporting and insights?",
+      answer: "Yes, we provide detailed monthly reports covering key metrics, performance analysis, and strategic recommendations. Our clients have access to real-time dashboards for campaign monitoring."
+    }
+  ];
+
 
   return (
     <section className="bg-gradient-to-br from-teal-50 via-white to-blue-50">
@@ -186,6 +224,112 @@ const GoogleAdsServices = () => {
               ))}
             </div>
           </div>
+
+           {/* Benefits Section */}
+        <div className="max-w-7xl mx-auto px-4 py-16">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold mb-4">
+              Why Choose Our Google Ads Management Services?
+            </h2>
+            <p className="text-xl text-gray-600">
+              Expert PPC management that drives real business results
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {benefits.map((benefit, index) => (
+              <motion.div
+                key={benefit.title}
+                variants={fadeInUp}
+                className="bg-white p-6 rounded-xl shadow-lg"
+              >
+                <div className="text-teal-600 mb-4">
+                  {benefit.icon}
+                </div>
+                <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
+                <p className="text-gray-600">{benefit.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
+        {/* Process Section */}
+        <div className="bg-gradient-to-r from-teal-50 to-blue-50 py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <motion.div
+              variants={containerVariants}
+              initial="hidden"
+              whileInView="visible"
+              className="text-center mb-12"
+            >
+              <h2 className="text-3xl font-bold mb-4">
+                Our Proven Google Ads Management Process
+              </h2>
+              <p className="text-xl text-gray-600">
+                A systematic approach to PPC success
+              </p>
+            </motion.div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {['Account Analysis', 'Strategy Development', 'Campaign Optimization', 'Performance Monitoring'].map((step, index) => (
+                <motion.div
+                  key={step}
+                  variants={fadeInUp}
+                  className="relative"
+                >
+                  <div className="bg-white p-6 rounded-xl shadow-lg">
+                    <div className="text-4xl font-bold text-teal-600 mb-4">
+                      {index + 1}
+                    </div>
+                    <h3 className="text-xl font-semibold mb-3">{step}</h3>
+                    <p className="text-gray-600">
+                      {index === 0 && "Comprehensive analysis of your current account performance and market opportunities."}
+                      {index === 1 && "Custom strategy development based on your business goals and target audience."}
+                      {index === 2 && "Continuous optimization of campaigns for maximum ROI and performance."}
+                      {index === 3 && "Regular monitoring and reporting of key performance metrics."}
+                    </p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="max-w-7xl mx-auto px-4 py-16">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold mb-4">
+              Frequently Asked Questions About Google Ads Management
+            </h2>
+            <p className="text-xl text-gray-600">
+              Get answers to common questions about our PPC services
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {faqItems.map((item, index) => (
+              <motion.div
+                key={index}
+                variants={fadeInUp}
+                className="bg-white p-6 rounded-xl shadow-lg"
+              >
+                <h3 className="text-xl font-semibold mb-3">{item.question}</h3>
+                <p className="text-gray-600">{item.answer}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
 
           {/* CTA Section */}
           <motion.div

@@ -39,42 +39,42 @@ const CareerPage = () => {
       title: "Website Developer",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "4+ years",
+      experience: "1+ years",
       description: "Build responsive and high-performing websites for diverse clients."
     },
     {
       title: "Google Ads Expert",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "3+ years",
+      experience: "1+ years",
       description: "Optimize and manage Google Ads campaigns for maximum ROI."
     },
     {
       title: "Social Media Manager",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "2+ years",
+      experience: "1+ years",
       description: "Create and execute social media strategies to grow engagement."
     },
     {
       title: "Content Writer",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "2+ years",
+      experience: "1+ years",
       description: "Write engaging and SEO-friendly content for diverse industries."
     },
     {
       title: "Graphic Designer",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "3+ years",
+      experience: "1+ years",
       description: "Design stunning graphics and visual assets for campaigns."
     },
     {
       title: "Video Editor",
       type: "Full-time",
       location: "1, Sagar, Shiv Shakti Nagar, Nirman Nagar, Jaipur",
-      experience: "3+ years",
+      experience: "1+ years",
       description: "Edit and produce high-quality videos for marketing and branding."
     }
   ];

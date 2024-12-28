@@ -5,7 +5,7 @@ import { Sparkles } from 'lucide-react';
 import ProductServicesPage from './ProductServicesPage';
 import ServicesCarousel from './ServicesCarousel';
 import GoogleMap from './GoogleMap';
-// import GradiantBottom from './GradientBottom';
+
 
 // Enhanced Background Component
 const HeroBackground = () => (
@@ -43,10 +43,10 @@ const WaveBottom = () => (
 
 // Responsive Animated Title
 const AnimatedTitle = () => (
-  <div className="text-3xl  sm:text-4xl md:text-5xl lg:text-6xl mb-12 font-bold leading-tight">
-    <div className="text-white">Transform Your</div>
-    <div className="text-white">Digital Presence with</div>
-    <div className="w-full  overflow-hidden">
+  <div className="text-2xl sm:text-3xl md:text-4xl  mb-6 lg:mb-12 font-bold leading-tight">
+    <div className="text-white whitespace-nowrap lg:text-5xl">Transform Your</div>
+    <div className="text-white whitespace-nowrap pb-2 lg:text-5xl">Digital Presence with</div>
+    <div className="w-full overflow-hidden">
       <TypeAnimation
         sequence={[
           'Website Development',
@@ -63,7 +63,7 @@ const AnimatedTitle = () => (
         wrapper="div"
         speed={50}
         repeat={Infinity}
-        className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-yellow-400 text-[1.75rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] pb-4 whitespace-nowrap"
+        className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-yellow-400 text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.5rem] pb-4 whitespace-nowrap"
       />
     </div>
   </div>
@@ -112,7 +112,7 @@ const HeroSection = () => (
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-base sm:text-lg mt-2 text-gray-300"
+            className="text-base sm:text-lg text-gray-300"
           >
             Unlock the power of AI-driven marketing solutions that deliver real results.
             Boost your online visibility and grow your business with our cutting-edge platform.
@@ -125,10 +125,10 @@ const HeroSection = () => (
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="absolute  top-[81px] md:top-3 transform -translate-x-1/2 rounded-lg overflow-hidden shadow-lg "
+            className="absolute  top-[80px] md:top-3 transform -translate-x-1/2 rounded-lg overflow-hidden shadow-lg "
           >
             <img
-              src="images/hero.webp" // Replace with your image URL
+              src="images/bestdigitalmarketingcompany.png" // Replace with your image URL
               alt="Digital Marketing"
               className="w-full h-full object-cover"
             />
@@ -150,7 +150,7 @@ const HomePage = () => {
       <ProductServicesPage />
       <ServicesCarousel />
       <GoogleMap />
-      {/* <GradiantBottom/> */}
+
     </div>
   );
 };
