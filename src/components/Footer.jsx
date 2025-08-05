@@ -46,7 +46,7 @@ const Footer = () => {
   const socialLinks = [
     { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61564390163701' },
     // { name: 'Twitter', icon: Twitter, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/seocialmediasolutions360/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/seocialmediasolutions/' },
     { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/seocial-media-solution/' }
   ];
 

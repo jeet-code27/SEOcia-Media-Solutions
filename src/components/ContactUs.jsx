@@ -71,7 +71,7 @@ const ContactForm = () => {
   const socialLinks = [
     {
       icon: Instagram,
-      href: "https://www.instagram.com/seocialmediasolutions360/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#",
+      href: "https://www.instagram.com/seocialmediasolutions/",
       gradient: "from-orange-500 to-red-500",
       label: "Instagram"
     },
