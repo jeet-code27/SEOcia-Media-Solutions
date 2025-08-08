@@ -18,12 +18,10 @@ import {
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import WebServicesSection from "./WebServicesSection";
-import WebIntroSection from "./WebIntroSection";
+
 import WebIndustriesSection from "./WebIndustriesSection";
 import WebIntroSectionAjmer from "./WebIntroSectionaAjmer";
-import TrustedByCompanies from "./TrustedByCompanies";
-import WorkingProcess from "./WorkingProcess";
+
 import WorkingProcessimgMedia from "./WorkingProcessimgMedia";
  
 const containerVariants = {

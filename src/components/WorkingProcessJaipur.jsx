@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { FaClipboardCheck, FaLightbulb, FaAtom, FaChartLine } from 'react-icons/fa';
-import HoverSlideCards from './HoverRevealCards';
+
 import { motion } from 'framer-motion';
 import { Clock, Shield, HeartHandshake } from 'lucide-react';
 import HoverSlideCardsJaipur from './HoverSlideCardsJaipur';
